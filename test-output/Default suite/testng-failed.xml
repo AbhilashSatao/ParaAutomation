@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testscripts.Firstcry_Findstore_01">
+        <methods>
+          <include name="FindStore"/>
+          <include name="StoreOpen"/>
+          <include name="MobileNo"/>
+          <include name="TearDown"/>
+          <include name="Selectstate"/>
+          <include name="EnterLastName"/>
+          <include name="Description"/>
+          <include name="SelectCapital"/>
+          <include name="City"/>
+          <include name="EnterName"/>
+          <include name="Aboutus"/>
+          <include name="captcha"/>
+          <include name="setup"/>
+          <include name="BrowserLaunch"/>
+          <include name="EmailAdd"/>
+        </methods>
+      </class> <!-- com.qa.testscripts.Firstcry_Findstore_01 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
