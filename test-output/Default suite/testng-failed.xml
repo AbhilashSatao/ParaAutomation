@@ -3,25 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testscripts.Firstcry_Findstore_01">
+      <class name="com.qa.testscripts.ParaBankRegisterTest">
         <methods>
-          <include name="FindStore"/>
-          <include name="StoreOpen"/>
-          <include name="MobileNo"/>
-          <include name="TearDown"/>
-          <include name="Selectstate"/>
-          <include name="EnterLastName"/>
-          <include name="Description"/>
-          <include name="SelectCapital"/>
-          <include name="City"/>
-          <include name="EnterName"/>
-          <include name="Aboutus"/>
-          <include name="captcha"/>
           <include name="setup"/>
-          <include name="BrowserLaunch"/>
-          <include name="EmailAdd"/>
+          <include name="TearDown"/>
+          <include name="registerUsers"/>
         </methods>
-      </class> <!-- com.qa.testscripts.Firstcry_Findstore_01 -->
+      </class> <!-- com.qa.testscripts.ParaBankRegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
