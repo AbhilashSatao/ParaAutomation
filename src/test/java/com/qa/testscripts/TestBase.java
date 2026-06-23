@@ -27,7 +27,7 @@ public class TestBase
 	@BeforeClass
 	public void setup(String Url)
 	{
-	//System.setProperty("webdriver.edge.driver", "C:\\Users\\Abhi\\Desktop\\Automation Testing\\edgedriver_win64\\msedgedriver.exe");
+	System.setProperty("webdriver.edge.driver", "C:\\Users\\Abhi\\Desktop\\Automation Testing\\edgedriver_win64\\msedgedriver.exe");
 	driver = new EdgeDriver();
 	
 	driver.manage().window().maximize();
